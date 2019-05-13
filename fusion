@@ -1,0 +1,8 @@
+$ git remote add -f modelomodule http://url/mi-proyecto-modelomodule.git
+ 
+$ git merge modelomodule/master
+ 
+$ mkdir mi-proyecto-jm
+$ git mv src/ mi-proyecto-wm/
+$ git add .
+$ git commit -m 'Movemos el código del proyecto modelo a la carpeta mi-proyecto-jm'
